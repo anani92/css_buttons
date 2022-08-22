@@ -1,29 +1,47 @@
-input {
-	background-color: rgb(101, 102, 102);
-	color: rgb(106, 165, 143);
-	font-size: 1.5rem;
-	padding: .4rem;
-	border: 5px solid rgb(115, 173, 115);
-	border-radius: 10px;
-	margin: 2rem;
-}
-
-.add {
-	background-color: rgb(106, 165, 143);
-	color: azure;
-	border-radius: 50%;
-	font-size: 2rem;
-	padding: 1rem;
-	margin: 2rem;
+*{
+	box-sizing: border-box;
+	margin: 0;
 
 }
 
-.create {
-	background-color: blue;
-	border: 3px solid black;
-	box-shadow: 3px 3px black;
-	padding: 1rem;
-	margin: 2rem;
-	font-size: 2rem;
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+	display: block;
+	padding: 10px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+	display: inline-block;
 
 }
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+	display: inline-block;
+	padding-top: 6.9rem;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+	display: inline-block;;
+
+}
+#advertisement {
+    height: 120px;
+    width: 730px;
+    background-color: purple;
+	display: block;
+	position: absolute;
+	bottom: 35%;
+}
+
