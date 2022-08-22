@@ -1,0 +1,29 @@
+input {
+	background-color: rgb(101, 102, 102);
+	color: rgb(106, 165, 143);
+	font-size: 1.5rem;
+	padding: .4rem;
+	border: 5px solid rgb(115, 173, 115);
+	border-radius: 10px;
+	margin: 2rem;
+}
+
+.add {
+	background-color: rgb(106, 165, 143);
+	color: azure;
+	border-radius: 50%;
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 2rem;
+
+}
+
+.create {
+	background-color: blue;
+	border: 3px solid black;
+	box-shadow: 3px 3px black;
+	padding: 1rem;
+	margin: 2rem;
+	font-size: 2rem;
+
+}
